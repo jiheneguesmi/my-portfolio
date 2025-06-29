@@ -42,7 +42,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Mariem Zouari's Portfolio";
+            document.title = "Jihene Guesmi's Portfolio";
             $("#favicon").attr("href", "assets/images/hero.jpg");
         }
     });
