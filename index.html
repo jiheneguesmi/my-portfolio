@@ -63,6 +63,9 @@
         </ul>
       </div>
     </div>
+    <div class="floating-contact">
+    <i class="fas fa-envelope"></i>
+</div>
 <div class="image">
     <img draggable="false" class="tilt" src="./assets/images/jihene.jpg" alt="Jihene Guesmi>
 </div>
@@ -75,24 +78,29 @@
 <section class="about" id="about">
     <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
     <div class="row">
-    <div class="image">
-        <img draggable="false" class="tilt" src="./assets/images/hero.jpg" alt="">
+    <div class="image" style="display: flex; flex-direction: column; align-items: center;">
+        <img draggable="false" class="tilt" src="./assets/images/hero.jpg" alt="" style="margin-bottom: 1rem;">
+        <span class="fullname" style="font-size:2.2rem; font-weight:700; color:#2506ad; margin-bottom:1rem;">Jihene Guesmi</span>
     </div>
-    <div class="content"><br><br><br>
-        <h3>I'm <span> Jihene Guesmi</span></h3>
-        <span class="tag">Artificial Intelligence / Machine Learning Enthusiast</span>
-        <p><br> Highly motivated final-year Data Science Engineering student at the Faculty of Sciences of Tunis, passionate about transforming data into actionable insights. 
-          With a solid foundation in Machine Learning, Deep Learning, and Big Data technologies, I love building innovative solutions that solve real-world problems.</p>
-        <div class="box-container">
+    <div class="content" style="display: flex; flex-direction: column;">
+        <!-- Retirer le premier bouton Resume ici -->
+        <h3 style="font-size:2.3rem; font-weight:700; color:#2506ad;">I'm <span>Jihene Guesmi</span></h3>
+        <span class="tag" style="font-size:1.3rem; color:#420177; font-weight:600; margin-bottom:1rem;">Artificial Intelligence / Machine Learning Enthusiast</span>
+        <p style="font-size:1.7rem; font-family:'Nunito',sans-serif; font-weight:600; text-align:justify; line-height:1.8; background:linear-gradient(90deg,rgba(245,245,255,0.9),rgba(230,230,255,0.7)); border-radius:14px; padding:1.5rem 2rem; box-shadow:0 4px 16px rgba(102,126,234,0.10); letter-spacing:0.02em;">
+          Highly motivated final-year Data Science Engineering student at the Faculty of Sciences of Tunis, passionate about transforming data into actionable insights.<br>
+          With a solid foundation in Machine Learning, Deep Learning, and Big Data technologies, I love building innovative solutions that solve real-world problems.
+        </p>
+        <div class="box-container" style="margin-top:1.5rem;">
             <div class="box">
               <p><span> E-mail : </span> jihene.guesmi@etudiant-fst.utm.tn</p>
               <p><span> Place : </span>Manar 1, Tunis, Tunisia</p>
+              <div class="resumebtn" style="display: flex; justify-content: flex-start; align-items: center; margin-top: 1.2rem;">
+                  <a href="./assets/pdf/Resume-Jihene Guesmi.pdf" target="_blank" class="btn" style="display: flex; align-items: center; gap: 0.7rem; padding: 1rem 2rem;">
+                      <i class="fas fa-file" style="font-size: 2.2rem;"></i>
+                      <span style="font-size:1.4rem;">Resume</span>
+                  </a>
+              </div>
             </div>
-        </div>
-        <div class="resumebtn">
-            <a href="./assets/pdf/Resume-Jihene Guesmi.pdf" target="_blank" class="btn"><span>Resume</span>
-                <i class="fas fa-file"></i>
-            </a>
         </div>
     </div>
     </div>
@@ -230,82 +238,56 @@
 
 <!-- Skills Section Starts -->
 <section class="skills" id="skills">
-  <div class="container">
-    <div class="heading">
-      <h2>Abilities <span>&</span> Skills</h2><br>
+  <div class="container" style="display: flex; flex-direction: column; align-items: center;">
+    <div class="heading" style="text-align: center;">
+      <h2 style="text-align: center;">Abilities <span>&</span> Skills</h2>
     </div>
-    
-      <br>
-      <div class="titre">
-  
-        <h2>Data Science and Machine Learning</h2>
+    <div class="skills-matrix" style="width:100%;margin-top:2rem;">
+      <div class="skill-category data-science">
+        <h3 style="color:#10b981;font-size:1.5rem;margin-bottom:1rem;">Data Science & Machine Learning</h3>
+        <div class="skill-list">
+          <span class="skill-item">Machine Learning</span>
+          <span class="skill-item">Deep Learning</span>
+          <span class="skill-item">Computer Vision</span>
+          <span class="skill-item">Generative AI</span>
+          <span class="skill-item">Natural Language Processing</span>
+          <span class="skill-item">Large Language Models</span>
+        </div>
       </div>
-      <br>
-      <div class="row">
-      <!-- Data Science and Machine Learning -->
-      <div class="bar"><div class="info"><span>Machine Learning</span></div></div>
-      <div class="bar"><div class="info"><span>Deep Learning</span></div></div>
-      <div class="bar"><div class="info"><span>Computer Vision</span></div></div>
-      <div class="bar"><div class="info"><span>Generative AI</span></div></div>
-      <div class="bar"><div class="info"><span>Natural Language Processing</span></div></div>
-      <div class="bar"><div class="info"><span>Large Language Models</span></div></div>
-    </div>
-    <br>
-    <div class="titre">
-
-      <h2>Visualization and Python Libraries</h2>
-    </div>
-    <br>
-    <div class="row">
-      <!-- Data Analysis and Visualization and Python Libraries -->
-      <div class="bar"><div class="info"><span>Numpy</span></div></div>
-      <div class="bar"><div class="info"><span>Pandas</span></div></div>
-      <div class="bar"><div class="info"><span>Matplotlib</span></div></div>
-      <div class="bar"><div class="info"><span>Seaborn</span></div></div>
-      <div class="bar"><div class="info"><span>Scikit-Learn</span></div></div>
-      <div class="bar"><div class="info"><span>OpenAI</span></div></div>
-      <div class="bar"><div class="info"><span>SpaCy</span></div></div>
-      <div class="bar"><div class="info"><span>NLTK</span></div></div>
-      <div class="bar"><div class="info"><span>Transformers(Hugging Face)</span></div></div>
-    </div>
-      <br>
-      <div class="titre">
-  
-        <h2>Big Data Technology</h2>
+      <div class="skill-category programming">
+        <h3 style="color:#667eea;font-size:1.5rem;margin-bottom:1rem;">Python Libraries & Visualization</h3>
+        <div class="skill-list">
+          <span class="skill-item">Numpy</span>
+          <span class="skill-item">Pandas</span>
+          <span class="skill-item">Matplotlib</span>
+          <span class="skill-item">Seaborn</span>
+          <span class="skill-item">Scikit-Learn</span>
+          <span class="skill-item">OpenAI</span>
+          <span class="skill-item">SpaCy</span>
+          <span class="skill-item">NLTK</span>
+          <span class="skill-item">Transformers (Hugging Face)</span>
+        </div>
       </div>
-      <br>
-    <div class="row">  
-      <div class="bar"><div class="info"><span>Hadoop</span></div></div>
-      <div class="bar"><div class="info"><span>Spark</span></div></div>
-      <div class="bar"><div class="info"><span>Hive</span></div></div>
-    </div>
-
-      <br>
-      <div class="titre">
-  
-        <h2>BI Tools</h2>
+      <div class="skill-category tools">
+        <h3 style="color:#f59e0b;font-size:1.5rem;margin-bottom:1rem;">Big Data & BI Tools</h3>
+        <div class="skill-list">
+          <span class="skill-item">Hadoop</span>
+          <span class="skill-item">Spark</span>
+          <span class="skill-item">Hive</span>
+          <span class="skill-item">Microsoft Power BI</span>
+          <span class="skill-item">Tableau</span>
+          <span class="skill-item">Google Analytics</span>
+        </div>
       </div>
-      <br>
-      <div class="row">
-      <!-- BI Tools -->
-      <div class="bar"><div class="info"><span>Microsoft Power BI</span></div></div>
-      <div class="bar"><div class="info"><span>Tableau</span></div></div>
-      <div class="bar"><div class="info"><span>Google Analytics</span></div></div>
-
+      <div class="skill-category databases">
+        <h3 style="color:#ef4444;font-size:1.5rem;margin-bottom:1rem;">Languages</h3>
+        <div class="skill-list">
+          <span class="skill-item">English : Fluent</span>
+          <span class="skill-item">French : Fluent</span>
+          <span class="skill-item">German : Beginner</span>
+          <span class="skill-item">Arabic : Native</span>
+        </div>
       </div>
-      <br>
-      <div class="titre">
-  
-        <h2>Languages</h2>
-      </div>
-      <br>
-      <div class="row">
-      <!-- BI Tools -->
-      <div class="bar"><div class="info"><span>English : Fluent</span></div></div>
-      <div class="bar"><div class="info"><span>French : Fluent</span></div></div>
-      <div class="bar"><div class="info"><span>German : Beginner</span></div></div>
-      <div class="bar"><div class="info"><span> Arabic : Native</span></div></div>
-
     </div>
   </div>
 </section>
@@ -315,30 +297,44 @@
 <section class="skills work certification" id="certifications">
   <div class="container">
     <div class="heading">
-      <h2>certifications</h2><br>
+      <h2>certifications</h2>
     </div>
-    <div class="box-container">
-      <!--Project-1-->
-      <div class="box"><a href="https://www.linkedin.com/learning/certificates/9f26e91c3cee7f1159289b1be3dbebd06b52930a010faca6758e50474857df27?u=2153100"target="_blank">
-      <img src=".\assets\images\NLP.png"alt="DP-900"></a><div class="content"><div class="tag">
-      <h3>Natural Language Processing - LinkedIn Learning</h3></div></div></div>
-
-      <!--Project-1-->
-      <div class="box"><a href="https://www.linkedin.com/learning/certificates/c7b5ffead3f75844a4c30079a19d2712befa943c8db8caff0599a89ea7111cc0?u=2153100"target="_blank">
-      <img src=".\assets\images\DL and NN.png"alt="DP-900"></a><div class="content"><div class="tag">
-      <h3>Deep Learning and Neural Networks - LinkedIn Learning</h3></div></div></div>
-
-      <!--Project-1-->
-      <div class="box"><a href="https://mail.google.com/mail/u/0/#search/cdoss/FMfcgzQXKDZnsSjtXdvxgPwvSZtkSRxG?projector=1&messagePartId=0.1"target="_blank">
-        <img src=".\assets\images\cdoss.png"alt="AI-900"></a><div class="content"><div class="tag">
-        <h3>Big Data Machine Learning with Apache Spark - CDOSS</h3></div></div></div>
-  
+    <div class="box-container" style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
+      <!--Certification 1-->
+      <div class="box">
+        <a href="https://www.linkedin.com/learning/certificates/9f26e91c3cee7f1159289b1be3dbebd06b52930a010faca6758e50474857df27?u=2153100" target="_blank">
+          <img src=".\assets\images\NLP.png" alt="NLP">
+        </a>
+        <div class="content">
+          <div class="tag">
+            <h3>Natural Language Processing Foundations<br>LinkedIn Learning</h3>
+          </div>
+        </div>
+      </div>
+      <!--Certification 2-->
+      <div class="box">
+        <a href="https://www.linkedin.com/learning/certificates/c7b5ffead3f75844a4c30079a19d2712befa943c8db8caff0599a89ea7111cc0?u=2153100" target="_blank">
+          <img src=".\assets\images\DL and NN.png" alt="DL and NN">
+        </a>
+        <div class="content">
+          <div class="tag">
+            <h3>Deep Learning & Neural Networks Foundations<br>LinkedIn Learning</h3>
+          </div>
+        </div>
+      </div>
+      <!--Certification 3-->
+      <div class="box">
+        <a href="https://mail.google.com/mail/u/0/#search/cdoss/FMfcgzQXKDZnsSjtXdvxgPwvSZtkSRxG?projector=1&messagePartId=0.1" target="_blank">
+          <img src=".\assets\images\cdoss.png" alt="Big Data ML">
+        </a>
+        <div class="content">
+          <div class="tag">
+            <h3>Big Data & Machine Learning Certification<br>CDOSS</h3>
+          </div>
+        </div>
+      </div>
     </div>
-  
-
-
   </div>
-
 </section>
 <!-- certifications section ends -->
 
@@ -411,4 +407,10 @@
 <script src="./assets/js/script.js"></script>
 
 </body>
+</html>
+</html>
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
 </html>
